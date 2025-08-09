@@ -1,4 +1,5 @@
-# Assignment2_kamal_parekh
+Penguine Classifier
+
 1. What edge cases might break your model in production that aren't in your training data?
    
 Sometimes real-world data throws curveballs—like missing or malformed features, unexpected categorical values (e.g., a new island or sex value), or extreme numbers way outside training ranges. For example, if the model never saw a penguin with negative body mass or an island called “Atlantis,” it might fail or give garbage predictions. Handling those gracefully with input validation and fallback logic is key.
